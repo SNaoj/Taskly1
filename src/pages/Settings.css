@@ -1,0 +1,138 @@
+.settings-content {
+  padding: 16px;
+}
+
+/* Tarjeta de Perfil */
+.profile-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.03);
+  border: 1px solid #f0edf5;
+}
+
+.profile-avatar {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #6a5acd;
+  border-radius: 50%;
+}
+
+.profile-info {
+  margin-left: 16px;
+}
+
+.profile-info h2 {
+  margin: 0 0 4px 0;
+  font-family: var(--font-title);
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a1a2e;
+}
+
+.profile-info p {
+  margin: 0;
+  font-size: 13px;
+  color: #8e9aa6;
+}
+
+/* Sección e Indicadores de Estadísticas */
+.section-title {
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: 14px;
+  color: #6a5acd;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 28px;
+}
+
+.stat-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 16px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.03);
+  border: 1px solid #f0edf5;
+  text-align: center;
+}
+
+.stat-icon {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.stat-icon.total {
+  color: #6a5acd;
+}
+
+.stat-icon.completed {
+  color: #43a047;
+}
+
+.stat-icon.pending {
+  color: #fb8c00;
+}
+
+.stat-value {
+  font-family: var(--font-title);
+  font-size: 20px;
+  font-weight: 800;
+  color: #1a1a2e;
+  margin-bottom: 2px;
+}
+
+.stat-label {
+  font-size: 11px;
+  color: #8e9aa6;
+  font-weight: 500;
+}
+
+/* Configuración de Opciones */
+.settings-list {
+  background: transparent !important;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.settings-item {
+  --background: #ffffff;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
+  border: 1px solid #f0edf5;
+  --padding-start: 16px;
+  --inner-padding-end: 16px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.option-icon {
+  color: #6a5acd;
+  font-size: 20px;
+  margin-right: 12px;
+}
+
+.option-value {
+  font-size: 13px;
+  color: #8e9aa6;
+}
+
+/* Personalización del interruptor toggle */
+ion-toggle {
+  --background: #e9ecef;
+  --background-checked: #6a5acd;
+  --handle-background-checked: #ffffff;
+}

@@ -1,0 +1,83 @@
+.welcome-page-content {
+  --background: #ffffff;
+}
+
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 40px 24px;
+  box-sizing: border-box;
+}
+
+/* Envoltura de la Ilustración */
+.illustration-wrapper {
+  flex: 1.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 280px;
+}
+
+.welcome-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* Textos de Presentación */
+.welcome-text-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 12px;
+}
+
+.welcome-title {
+  font-family: var(--font-title);
+  font-size: 30px;
+  font-weight: 800;
+  color: #1a1d24;
+  line-height: 1.25;
+  margin: 0;
+}
+
+.brand-highlight {
+  color: #6a5acd;
+}
+
+.welcome-subtitle {
+  font-family: var(--ion-font-family);
+  font-size: 15px;
+  color: #8e9aa6;
+  line-height: 1.6;
+  margin-top: 16px;
+  margin-bottom: 0;
+  max-width: 280px;
+}
+
+/* Sección del Botón de Acción */
+.welcome-action-section {
+  width: 100%;
+  padding-bottom: 8px;
+}
+
+.start-button-custom {
+  --background: #6a5acd;
+  --background-hover: #5d4ec3;
+  --background-activated: #5d4ec3;
+  --border-radius: 14px;
+  --box-shadow: 0 4px 14px rgba(106, 90, 205, 0.3);
+  font-family: var(--font-title);
+  font-size: 16px;
+  font-weight: 700;
+  height: 52px;
+  text-transform: none;
+  margin: 0;
+}
